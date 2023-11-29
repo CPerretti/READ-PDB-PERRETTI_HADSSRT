@@ -125,9 +125,9 @@ mdi   <- fit_wham(input_di,    do.osa = T, do.retro = T)
 mln   <- fit_wham(input_ln,    do.osa = T, do.retro = T)
 
 
-plot_wham_output(mod = mbase, out.type = 'pdf', dir.main = "./mbase")
-plot_wham_output(mod = mre,   out.type = 'pdf', dir.main = "./mre")
-plot_wham_output(mod = mdi,   out.type = 'pdf', dir.main = "./mdi")
-plot_wham_output(mod = mln,   out.type = 'pdf', dir.main = "./mln")
+plot_wham_output(mod = mbase, out.type = 'png', dir.main = "./mbase")
+plot_wham_output(mod = mre,   out.type = 'png', dir.main = "./mre")
+plot_wham_output(mod = mdi,   out.type = 'png', dir.main = "./mdi")
+plot_wham_output(mod = mln,   out.type = 'png', dir.main = "./mln")
 
 
